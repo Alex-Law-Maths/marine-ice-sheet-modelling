@@ -25,6 +25,8 @@ The grounding-line position is determined by
 the balance between ice flow, basal conditions
 and the flotation constraint.
 
+Additional diagrams of the model configurations are available in the [schematics folder](schematics/).
+
 
 ## Numerical methods
 
@@ -49,11 +51,11 @@ The main driver reproduces four groups of investigations:
 
 ## Selected findings
 
-- The models can predict substantially different grounding-line positions under different basal conditions, but agree in some intermediate parameter regimes.
+- The shear-dominated and extensional models can predict substantially different grounding-line positions under different basal conditions, while agreeing in some intermediate parameter regimes.
 - For the shear-dominated model without accumulation, the grounded-sheet thickness is constant when the dimensionless bed slope is `beta = 1`.
-- Numerical parameter studies reveal power-law relationships between grounding-line position and model parameters.
+- Grounding-line parameter sweeps investigate how position varies with basal slip, bed slope, accumulation and flotation conditions. Numerical trends are compared with predicted asymptotic power laws; for example, the shear-dominated model uses the reference scaling \(x_G \propto \beta^{-7/4}\) for rheological exponent \(n=3\).
 
-For derivations, assumptions and limitations, see the MSc dissertation, *The Dynamics of Marine Ice Sheets and Ice Streams* (2026).
+For the full derivations, model assumptions and limitations, see the [MSc dissertation, *The Dynamics of Marine Ice Sheets and Ice Streams* (2026)](docs/MSC_dissertation.pdf).
 
 ## Running the code
 
