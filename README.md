@@ -13,6 +13,19 @@ Two idealised, two-dimensional models of a marine ice sheet are developed and co
 
 The models are compared across variations in bed slope, ice accumulation, basal slip and flotation conditions.
 
+## Model geometry
+
+The model considers a grounded marine ice sheet
+flowing over a sloping bed and transitioning into
+a floating ice shelf at the grounding line.
+
+![Marine ice sheet schematic](schematics/ice_stream_schematic.png)
+
+The grounding-line position is determined by
+the balance between ice flow, basal conditions
+and the flotation constraint.
+
+
 ## Numerical methods
 
 The project uses MATLAB to:
