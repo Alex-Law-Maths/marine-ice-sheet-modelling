@@ -70,8 +70,6 @@ The driver is **self-contained**: the numerical solvers, grounding-line function
 
 Generated PNG figures and CSV/LaTeX parameter tables are written to a **`results/`** directory beside the driver. MATLAB creates this directory automatically.
 
-> **Note:** The full parameter sweeps may take some time. MATLAB execution and output reproduction have not been independently verified as part of preparing this GitHub repository.
-
 
 ## Selected results
 
